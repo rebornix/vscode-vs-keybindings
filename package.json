@@ -1,0 +1,119 @@
+{
+    "name": "vs-keybindings",
+    "displayName": "Visual Studio Keymap",
+    "description": "Visual Studio keybindings for VS Code.",
+    "version": "0.1.0",
+    "publisher": "rebornix",
+    "author": {
+		"name": "Peng Lv"
+	},
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keymap"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rebornix/vscode-vs-keybindings.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Microsoft/vscode-vs-keybindings/issues"
+    },
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+shift+b",
+                "command": "workbench.action.tasks.build"
+            },
+            {
+                "key": "ctrl+b",
+                "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
+            },
+            {
+                "key": "ctrl+shift+f9",
+                "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+            },
+            {
+                "key": "ctrl+shift+f5",
+                "command": "workbench.action.debug.restart",
+                "when": "inDebugMode"
+            },
+            {
+                "key": "ctrl+f10",
+                "command": "editor.debug.action.runToCursor",
+                "when": "inDebugMode"
+            },
+            {
+                "key": "ctrl+k ctrl+d",
+                "command": "editor.action.formatDocument"
+            },
+            {
+                "key": "ctrl+k ctrl+x",
+                "command": "insertSnippet"
+            },
+            {
+                "key": "ctrl+l",
+                "command": "editor.action.deleteLines",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+g",
+                "command": "workbench.action.files.openFileFolder"
+            },
+            {
+                "key": "alt+f12",
+                "command": "editor.action.referenceSearch.trigger"
+            },
+            {
+                "key": "ctrl+y",
+                "command": "redo"
+            },
+            {
+                "key": "ctrl+w",
+                "command": "editor.action.addSelectionToNextFindMatch"
+            },
+            {
+                "key": "ctrl+alt+space",
+                "command": "editor.action.triggerSuggest",
+                "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+space",
+                "command": "undo"
+            },
+            {
+                "key": "ctrl+delete",
+                "command": "deleteWordEndRight"
+            },
+            {
+                "key": "ctrl+space",
+                "command": "deleteWordStartLeft"
+            },
+            {
+                "key": "ctrl+shift+s",
+                "command": "workbench.action.files.saveAll"
+            },
+            {
+                "key": "ctrl+alt+o",
+                "command": "workbench.action.output.toggleOutput"
+            },
+            {
+                "key": "ctrl+alt+l",
+                "command": "workbench.view.explorer"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^1.0.0"
+    },
+    "dependencies": {
+        "jsonfile": "^2.2.3"
+    }
+}
