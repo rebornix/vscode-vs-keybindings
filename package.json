@@ -24,7 +24,7 @@
         "url": "https://github.com/Microsoft/vscode-vs-keybindings/issues"
     },
     "preview": true,
-    // "icon": "visualstudio-keyboard.svg",
+    "icon": "visualstudio-keyboard.svg",
     "contributes": {
         "keybindings": [
             {
