@@ -89,7 +89,7 @@
                 "command": "deleteWordEndRight"
             },
             {
-                "key": "ctrl+space",
+                "key": "ctrl+backspace",
                 "command": "deleteWordStartLeft"
             },
             {
