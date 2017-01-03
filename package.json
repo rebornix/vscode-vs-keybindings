@@ -89,7 +89,7 @@
                 "command": "deleteWordEndRight"
             },
             {
-                "key": "ctrl+space",
+                "key": "ctrl+backspace",
                 "command": "deleteWordStartLeft"
             },
             {
@@ -108,7 +108,11 @@
                 "key": "ctrl+r ctrl+r",
                 "command": "editor.action.rename",
                 "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
-            }
+            },
+            {
+				"key": "ctrl+r ctrl+w",
+				"command": "editor.action.toggleRenderWhitespace"
+			}
         ]
     },
     "scripts": {
