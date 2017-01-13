@@ -115,9 +115,14 @@
                 "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
             },
             {
-				"key": "ctrl+r ctrl+w",
-				"command": "editor.action.toggleRenderWhitespace"
-			}
+                "key": "ctrl+r ctrl+w",
+                "command": "editor.action.toggleRenderWhitespace"
+            },
+            {
+                "key": "ctrl+k ctrl+m",
+                "command": "editor.foldAll",
+                "when": "editorTextFocus"
+            }
         ]
     },
     "scripts": {
