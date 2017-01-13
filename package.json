@@ -57,7 +57,12 @@
             {
                 "key": "ctrl+l",
                 "command": "editor.action.deleteLines",
-                "when": "editorTextFocus && !editorReadonly"
+                "when": "editorTextFocus && !editorReadonly && !editorHasSelection"
+            },
+            {
+                "key": "ctrl+l",
+                "command": "editor.action.clipboardCutAction",
+                "when": "editorTextFocus && !editorReadonly && editorHasSelection"
             },
             {
                 "key": "ctrl+shift+g",
