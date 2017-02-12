@@ -122,6 +122,14 @@
                 "key": "ctrl+k ctrl+m",
                 "command": "editor.foldAll",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+-",
+                "command": "workbench.action.navigateBack"
+            },
+            {
+                "key": "ctrl+shift+-",
+                "command": "workbench.action.navigateForward"
             }
         ]
     },
