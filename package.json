@@ -2,7 +2,7 @@
     "name": "vs-keybindings",
     "displayName": "Visual Studio Keymap",
     "description": "Popular Visual Studio keybindings for VS Code.",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.6.0"
@@ -130,7 +130,11 @@
             {
                 "key": "ctrl+shift+-",
                 "command": "workbench.action.navigateForward"
-            }
+            },
+            {
+                "key": "ctrl+,",
+                "command": "workbench.action.quickOpen"
+            }     
         ]
     },
     "scripts": {
