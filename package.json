@@ -55,14 +55,14 @@
                 "command": "insertSnippet"
             },
             {
-                "key": "ctrl+l",
+                "key": "ctrl+shift+l",
                 "command": "editor.action.deleteLines",
-                "when": "editorTextFocus && !editorReadonly && !editorHasSelection"
+                "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+l",
                 "command": "editor.action.clipboardCutAction",
-                "when": "editorTextFocus && !editorReadonly && editorHasSelection"
+                "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+shift+g",
