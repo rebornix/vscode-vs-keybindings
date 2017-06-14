@@ -21,7 +21,7 @@
         "url": "https://github.com/rebornix/vscode-vs-keybindings/issues"
     },
     "preview": true,
-    "icon": "visualstudio-keyboard.svg",
+    "icon": "visualstudio-keyboard.png",
     "contributes": {
         "keybindings": [
             {

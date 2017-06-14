@@ -1,4 +1,4 @@
-# Visual Studio Keymap for VS Code
+# Visual Studio Keymap for Visual Studio Code
 
 This extension ports popular Visual Studio keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Visual Studio are now available. 
 
