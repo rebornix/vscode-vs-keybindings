@@ -134,7 +134,37 @@
             {
                 "key": "ctrl+,",
                 "command": "workbench.action.quickOpen"
-            }     
+            },
+            {
+                "key": "shift+alt+down",
+                "command": "cursorColumnSelectDown",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+left",
+                "command": "cursorColumnSelectLeft",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+pagedown",
+                "command": "cursorColumnSelectPageDown",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+pageup",
+                "command": "cursorColumnSelectPageUp",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+right",
+                "command": "cursorColumnSelectRight",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+up",
+                "command": "cursorColumnSelectUp",
+                "when": "editorTextFocus"
+            }
         ]
     },
     "scripts": {
