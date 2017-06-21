@@ -164,6 +164,10 @@
                 "key": "shift+alt+up",
                 "command": "cursorColumnSelectUp",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+f4",
+                "command": "workbench.action.closeActiveEditor"
             }
         ]
     },
