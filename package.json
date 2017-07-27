@@ -166,6 +166,10 @@
                 "when": "editorTextFocus"
             },
             {
+                "key": "shift+alt+enter",
+                "command": "workbench.action.toggleZenMode"
+            },
+            {
                 "key": "ctrl+f4",
                 "command": "workbench.action.closeActiveEditor"
             }
