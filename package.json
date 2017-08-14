@@ -95,7 +95,8 @@
             },
             {
                 "key": "ctrl+backspace",
-                "command": "deleteWordStartLeft"
+                "command": "deleteWordStartLeft",
+                "when": "editorTextFocus"
             },
             {
                 "key": "ctrl+shift+s",
