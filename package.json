@@ -91,12 +91,13 @@
             },
             {
                 "key": "ctrl+delete",
-                "command": "deleteWordEndRight"
+                "command": "deleteWordEndRight",
+                "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+backspace",
                 "command": "deleteWordStartLeft",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && !editorReadonly"
             },
             {
                 "key": "ctrl+shift+s",
