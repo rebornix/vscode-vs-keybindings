@@ -173,6 +173,10 @@
             {
                 "key": "ctrl+f4",
                 "command": "workbench.action.closeActiveEditor"
+            },
+            {
+                "key": "ctrl+d",
+                "command": "editor.action.copyLinesDownAction"
             }
         ]
     },
