@@ -178,6 +178,16 @@
             {
                 "key": "ctrl+d",
                 "command": "editor.action.copyLinesDownAction"
+            },
+            {
+                "key": "ctrl+enter",
+                "command": "editor.action.insertLineBefore",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "shift+enter",
+                "command": "editor.action.insertLineAfter",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
