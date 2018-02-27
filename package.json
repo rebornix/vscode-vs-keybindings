@@ -188,6 +188,16 @@
                 "key": "ctrl+shift+right",
                 "command": "cursorWordStartRightSelect",
                 "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+enter",
+                "command": "editor.action.insertLineBefore",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "shift+enter",
+                "command": "editor.action.insertLineAfter",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
