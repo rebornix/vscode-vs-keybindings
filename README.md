@@ -2,11 +2,6 @@
 
 This extension ports popular Visual Studio keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Visual Studio are now available. 
 
-## What keyboard shortcuts are included?
-
-You can see all the keyboard shortcuts in the extension's contribution list. 
-
-
 ## Why don't all the keyboard shortcuts work? 
 
 VS Code does not implement all of the commands available in Visual Studio. If you would like to see a feature in VS Code that is in Visual Studio, please open an [issue on GitHub](https://github.com/Microsoft/vscode/issues/new). 
