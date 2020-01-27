@@ -198,6 +198,24 @@
                 "key": "shift+enter",
                 "command": "editor.action.insertLineAfter",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+down",
+                "command": "editorScroll",
+                "args": {
+                    "to": "down",
+                    "by": "line",
+                    "revealCursor": true
+                }
+            },
+            {
+                "key": "ctrl+up",
+                "command": "editorScroll",
+                "args": {
+                    "to": "up",
+                    "by": "line",
+                    "revealCursor": true
+                }
             }
         ]
     },
